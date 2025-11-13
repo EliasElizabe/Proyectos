@@ -2,7 +2,7 @@
 
 ¡Bienvenido/a!  
 Este repositorio reúne mis proyectos realizados tanto en la carrera de **Licenciatura en Ciencias de Datos** como en trabajos y estudios personales.  
-Cada proyecto fue una oportunidad para aprender, practicar y aplicar herramientas reales del mundo del análisis de datos, programación y machine learning.
+Cada proyecto fue una oportunidad para aprender, practicar y aplicar herramientas reales del mundo del análisis de datos y programación.
 
 ---
 
