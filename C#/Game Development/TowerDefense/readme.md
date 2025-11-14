@@ -1,92 +1,44 @@
-🎮 Tower Defense - Proyecto de Aprendizaje en C#
-📋 Descripción
-Proyecto de Tower Defense desarrollado en Unity como parte de mi aprendizaje en C# para desarrollo de videojuegos. Este repositorio muestra mis habilidades en programación de mecánicas de juego, patrones de diseño y arquitectura de software.
+🎮 Tower Defense - Proyecto C# / Unity
+Proyecto de Tower Defense desarrollado en Unity como parte de mi aprendizaje en C# para desarrollo de videojuegos.
 
-🛠️ Tecnologías Aprendidas
-Lenguaje: C# para Unity
+📁 Estructura de Scripts
+Torres
+AttackTower.cs - Torre básica de ataque
 
-Motor: Unity Engine
+BombTower.cs - Torre con explosiones en área
 
-Patrones: Programación orientada a objetos, Component Pattern
+InfernoTower.cs - Torre de daño continuo
 
-Conceptos: Game loops, Física de juego, Colisiones, IA básica
+TowerHP.cs - Sistema de vida para torres
 
-🏗️ Estructura del Proyecto
-📂 Scripts Principales
-🏰 Sistema de Torres
-Script	Función	Conceptos Aplicados
-AttackTower.cs	Torre básica de ataque	Herencia, Corrutinas
-BombTower.cs	Torre con área de efecto	Polimorfismo, Física
-InfernoTower.cs	Torre de daño continuo	Estados, Efectos
-TowerHP.cs	Vida de torres	Eventos, Delegados
-👾 Sistema de Enemigos
-Script	Función	Conceptos Aplicados
-Enemy.cs	Clase base enemigos	Clases abstractas
-EnemyFollow.cs	Seguimiento de rutas	IA, Pathfinding
-EnemyHP.cs	Sistema de vida	Gestión de estado
-Kamikaze.cs	Enemigo suicida	Comportamientos únicos
-⚡ Mecánicas de Juego
-Script	Función	Conceptos Aplicados
-BombProjectile.cs	Proyectiles explosivos	Física, Triggers
-Base.cs	Gestión de base	Singleton Pattern
+Enemigos
+Enemy.cs - Clase base de enemigos
 
-🎮 Mecánicas Implementadas
-✅ Sistema de combate por torres
+EnemyFollow.cs - IA de seguimiento de rutas
 
-✅ IA de enemigos con pathfinding
+EnemyHP.cs - Sistema de vida para enemigos
 
-✅ Sistema de vida y daño
+Kamikaze.cs - Enemigo suicida
 
-✅ Diferentes tipos de proyectiles
+Mecánicas
+BombProjectile.cs - Proyectiles explosivos
 
-✅ Múltiples tipos de torres y enemigos
+Base.cs - Gestión de la base principal
 
-📚 Patrones de Diseño
-Component Pattern (Estilo Unity)
+🎯 Habilidades Aplicadas
+Programación en C# para Unity
 
-Singleton para managers
+Sistemas de combate con diferentes tipos de torres
 
-Observer para eventos de juego
+IA de enemigos con pathfinding básico
 
-Strategy para diferentes comportamientos
-
-🚀 Cómo Ejecutar
-Clonar el repositorio
-
-Abrir en Unity 2021.3+
-
-Ejecutar la escena principal
-
-Controles:
-
-Click para colocar torres
-
-ESPACIO para iniciar oleadas
-
-📈 Progreso de Aprendizaje
-✅ Lo que Aprendí
-Programación orientada a objetos en C#
+Física y colisiones para proyectiles
 
 Arquitectura de componentes de Unity
 
-Manejo de físicas y colisiones
+🚀 Cómo Usar
+Abrir proyecto en Unity 2021.3+
 
-Implementación de IA básica
+Ejecutar escena principal
 
-Patrones de diseño aplicados a juegos
-
-🔄 Próximos Pasos
-Sistema de economía y recursos
-
-Mejorar IA con máquinas de estado
-
-Efectos visuales y partículas
-
-Sistema de progresión por niveles
-
-📝 Reflexiones
-Este proyecto me permitió entender cómo aplicar conceptos teóricos de C# en un contexto práctico de desarrollo de videojuegos. La curva de aprendizaje incluyó desde sintaxis básica hasta arquitectura escalable para mecánicas complejas.
-
-💡 ¿Interesado en mi progreso? Puedes ver mis otros repositorios para conocer mi aprendizaje en diferentes tecnologías.
-
-
+Colocar torres y defender la base
