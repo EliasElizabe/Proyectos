@@ -57,8 +57,4 @@ Su objetivo es observar cómo se comportan los egresos a lo largo del año y eva
 - Data modeling (relaciones 1:N y N:N)  
 - Python (opcional – limpieza previa de datos)  
 
----
-
-## 📄 Archivos incluidos
-
 
