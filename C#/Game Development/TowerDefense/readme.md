@@ -29,21 +29,7 @@ Kamikaze.cs	Enemigo suicida	Comportamientos únicos
 Script	Función	Conceptos Aplicados
 BombProjectile.cs	Proyectiles explosivos	Física, Triggers
 Base.cs	Gestión de base	Singleton Pattern
-🎯 Habilidades Demostradas
-💻 Programación en C#
-csharp
-// Ejemplo de implementación de torre
-public class AttackTower : MonoBehaviour
-{
-    [SerializeField] private float attackRange;
-    [SerializeField] private int damage;
-    
-    private void Update()
-    {
-        FindTarget();
-        if (target != null) Attack();
-    }
-}
+
 🎮 Mecánicas Implementadas
 ✅ Sistema de combate por torres
 
